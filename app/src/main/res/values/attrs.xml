@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--自定义圆形ImageView相关-->
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="IndicatorView">
+        <attr name="indicator_empty" format="reference" />
+        <attr name="indicator_selected" format="reference" />
+        <attr name="indicator_margin" format="dimension" />
+        <attr name="indicator_smooth" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="DeletableEditText">
+        <attr name="clear_icon" format="reference" />
+        <attr name="underline_color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="StickView">
+        <attr name="stick_title" format="string" />
+    </declare-styleable>
+    <declare-styleable name="PullToZoomView">
+        <attr name="headerView" format="reference" />
+        <attr name="contentView" format="reference" />
+        <attr name="zoomView" format="reference" />
+        <attr name="isHeaderParallax" format="boolean" />
+        <attr name="headerViewHeight" format="dimension" />
+        <attr name="maxDragHeight" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="ColorfulAnim">
+        <attr name="speed_factor" format="float" />
+    </declare-styleable>
+</resources>
